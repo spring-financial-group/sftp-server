@@ -60,7 +60,7 @@ spec:
             tcpSocket:
               port: 22
           resources:
-            {{- toYaml .Values.resources.sftp | indent 12 }}
+{{ toYaml .Values.resources.sftp | indent 12 }}
         {{- if .Values.debug.enabled }}
         - name: debug
           image: {{ .Values.debug.image.repository }}:{{ .Values.debug.image.tag }}
@@ -74,7 +74,7 @@ spec:
           - sh
           - -c
           - "trap : TERM INT; (while true; do sleep 1000; done) & wait"
-        {{- end }}}
+        {{- end }}
       volumes:
       - name: sftp-config
         configMap:
