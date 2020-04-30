@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  sftp-server:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-04-30T13:20:22.978822097+01:00"
+    description: A helm chart for a SFTP server
+    digest: a9f9c0b4c494e2326420d4bf7f467da7380d29b124043097d54c8737f94ee090
+    name: sftp-server
+    urls:
+    - https://spring-financial-group.github.io/sftp-server/charts/sftp-server-0.3.0.tgz
+    version: 0.3.0
+generated: "2020-04-30T13:20:22.978250579+01:00"
