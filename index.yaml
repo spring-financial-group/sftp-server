@@ -3,7 +3,16 @@ entries:
   sftp-server:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-30T16:16:37.830922533+01:00"
+    created: "2020-05-04T23:31:48.790252616+01:00"
+    description: A helm chart for a SFTP server
+    digest: d3d5766f08ed65f27f254cdbd828d156c68280d2c44cd671b87ff39a2e1f1815
+    name: sftp-server
+    urls:
+    - https://spring-financial-group.github.io/sftp-server/charts/sftp-server-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-05-04T23:31:48.789907774+01:00"
     description: A helm chart for a SFTP server
     digest: e5f271f87738e35d6e83300c2cb02ee1cea61faa462b80c73bdff1d4b5d9a16f
     name: sftp-server
@@ -12,11 +21,11 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-30T16:16:37.830156557+01:00"
+    created: "2020-05-04T23:31:48.789506485+01:00"
     description: A helm chart for a SFTP server
     digest: a9f9c0b4c494e2326420d4bf7f467da7380d29b124043097d54c8737f94ee090
     name: sftp-server
     urls:
     - https://spring-financial-group.github.io/sftp-server/charts/sftp-server-0.3.0.tgz
     version: 0.3.0
-generated: "2020-04-30T16:16:37.829159575+01:00"
+generated: "2020-05-04T23:31:48.788938401+01:00"
