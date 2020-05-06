@@ -11,7 +11,6 @@ The chart supports:
 - persistent SSH server host keys
 - provision of authorized SSH keys
 - persistentVolumeClaim for data
-- [kube-vxlan-controller](https://github.com/openvnf/kube-vxlan-controller)
 
 
 ## Prerequisites
@@ -67,12 +66,3 @@ The following table lists the configurable parameters of the SFTP server chart a
 | `persistentVolume.size`            | Size of volume                             | `20Gi`                                      |
 | `persistentVolume.storageClass`    | StorageClass to be used in PVC             | not set                                     |
 | `persistentVolume.subPath`         | Use subPath of existing volume             | `""`                                        |
-| `vxlanController.enabled`          | If enabled, start kube-vxlan-controller    | `false`                                     |
-| `vxlanController.annotationKey`    | Annotation name to set for vxlan           | `vxlan.openvnf.org/networks`                |
-| `vxlanController.metadataKey`      | Metadata key to set for vxlan              | `vxlan.openvnf.org`                         |
-| `vxlanController.image.repository` | Docker repo to use                         | `openvnf/kube-vxlan-controller-agent`       |
-| `vxlanController.image.tag`        | Docker tag to be used                      | `2.1.0`                                     |
-| `vxlanController.image.pullPolicy` | Image pull policy                          | `IfNotPresent`                              |
-| `vxlanController.network`          | VXLAN network to attach to                 | `vxeth0`                                    |
-| `vxlanController.ip`               | IP address to assign to vxlan interface    | `{}`                                        |
-| `vxlanController.route`            | additional route to configure              | `{}`                                        |
