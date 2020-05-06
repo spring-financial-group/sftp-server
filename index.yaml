@@ -3,38 +3,38 @@ entries:
   sftp-server:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-06T16:11:02.102687042+01:00"
+    created: "2020-05-06T16:33:13.41622756+01:00"
     description: A helm chart for a SFTP server
     digest: dab3bc54be43701f3ed9261635d16502df1c16f6b57c8c0f85e7a22aa8d1f9e6
     name: sftp-server
     urls:
-    - https://spring-financial-group.github.io/sftp-server/sftp-server-0.6.0.tgz
+    - https://spring-financial-group.github.io/sftp-server/charts/sftp-server-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-06T16:11:02.102334185+01:00"
+    created: "2020-05-06T16:33:13.415425895+01:00"
     description: A helm chart for a SFTP server
-    digest: c1a8be84c78e712df9af9b4970654cb46df1f5eb3c6753c43e96e4a1acc0473a
+    digest: d3d5766f08ed65f27f254cdbd828d156c68280d2c44cd671b87ff39a2e1f1815
     name: sftp-server
     urls:
-    - https://spring-financial-group.github.io/sftp-server/sftp-server-0.5.0.tgz
+    - https://spring-financial-group.github.io/sftp-server/charts/sftp-server-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-06T16:11:02.101990476+01:00"
+    created: "2020-05-06T16:33:13.414656742+01:00"
     description: A helm chart for a SFTP server
     digest: e5f271f87738e35d6e83300c2cb02ee1cea61faa462b80c73bdff1d4b5d9a16f
     name: sftp-server
     urls:
-    - https://spring-financial-group.github.io/sftp-server/sftp-server-0.4.0.tgz
+    - https://spring-financial-group.github.io/sftp-server/charts/sftp-server-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-06T16:11:02.101560504+01:00"
+    created: "2020-05-06T16:33:13.379459372+01:00"
     description: A helm chart for a SFTP server
     digest: a9f9c0b4c494e2326420d4bf7f467da7380d29b124043097d54c8737f94ee090
     name: sftp-server
     urls:
-    - https://spring-financial-group.github.io/sftp-server/sftp-server-0.3.0.tgz
+    - https://spring-financial-group.github.io/sftp-server/charts/sftp-server-0.3.0.tgz
     version: 0.3.0
-generated: "2020-05-06T16:11:02.101042335+01:00"
+generated: "2020-05-06T16:33:13.37878616+01:00"
