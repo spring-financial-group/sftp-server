@@ -15,11 +15,6 @@ spec:
       targetPort: ssh
       protocol: TCP
       name: ssh
-  {{- if .Values.image.pullSecrets }}
-  imagePullSecrets:
-  {{- range .Values.image.pullSecrets }}
-    - name: {{ . }}
-  {{- end }}
   selector:
     app.kubernetes.io/name: {{ include "sftp-server.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
