@@ -26,6 +26,7 @@ spec:
       {{- range .Values.image.pullSecrets }}
         - name: {{ . }}
       {{- end }}
+      {{- end }}
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
