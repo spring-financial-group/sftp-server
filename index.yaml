@@ -2,17 +2,17 @@ apiVersion: v1
 entries:
   sftp-server:
   - apiVersion: v1
-    appVersion: 0.7.0
-    created: "2020-05-06T19:25:58.183710238+01:00"
+    appVersion: 0.8.0
+    created: "2020-05-07T09:49:20.134878368+01:00"
     description: A helm chart for a SFTP server
-    digest: 523779cc68fe4d92367b963a64e8f6ef38ecadac0810b0c0cc8b6663a176ab78
+    digest: 55e9261fd74987bf1e05a2737cbc60269613a222bd42f206de446cba53a79f22
     name: sftp-server
     urls:
     - https://spring-financial-group.github.io/sftp-server/charts/sftp-server-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-06T19:25:58.180411012+01:00"
+    created: "2020-05-07T09:49:20.134499164+01:00"
     description: A helm chart for a SFTP server
     digest: dab3bc54be43701f3ed9261635d16502df1c16f6b57c8c0f85e7a22aa8d1f9e6
     name: sftp-server
@@ -21,7 +21,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-06T19:25:58.179935593+01:00"
+    created: "2020-05-07T09:49:20.134051531+01:00"
     description: A helm chart for a SFTP server
     digest: d3d5766f08ed65f27f254cdbd828d156c68280d2c44cd671b87ff39a2e1f1815
     name: sftp-server
@@ -30,7 +30,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-06T19:25:58.179462749+01:00"
+    created: "2020-05-07T09:49:20.133563933+01:00"
     description: A helm chart for a SFTP server
     digest: e5f271f87738e35d6e83300c2cb02ee1cea61faa462b80c73bdff1d4b5d9a16f
     name: sftp-server
@@ -39,11 +39,11 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-06T19:25:58.178931014+01:00"
+    created: "2020-05-07T09:49:20.118031737+01:00"
     description: A helm chart for a SFTP server
     digest: a9f9c0b4c494e2326420d4bf7f467da7380d29b124043097d54c8737f94ee090
     name: sftp-server
     urls:
     - https://spring-financial-group.github.io/sftp-server/charts/sftp-server-0.3.0.tgz
     version: 0.3.0
-generated: "2020-05-06T19:25:58.163663703+01:00"
+generated: "2020-05-07T09:49:20.117118597+01:00"
