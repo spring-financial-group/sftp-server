@@ -13,7 +13,7 @@ spec:
   ports:
     - port: {{ .Values.service.port }}
       targetPort: ssh
-      nodePort: 3322
+      nodePort: {{ .Values.service.nodePort }}
       protocol: TCP
       name: ssh
   selector:

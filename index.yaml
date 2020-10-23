@@ -3,25 +3,16 @@ entries:
   sftp-server:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-10-23T12:50:39.2296511+01:00"
+    created: "2020-10-23T12:56:04.3512807+01:00"
     description: A helm chart for a SFTP server
-    digest: f4ce1828c17c99f5c3f9ba8db794bc2884df287839ab97a9841f7d73b51e60dd
-    name: sftp-server
-    urls:
-    - charts/sftp-server-0.11.0.tgz
-    version: 0.11.0
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2020-10-23T12:50:39.2296511+01:00"
-    description: A helm chart for a SFTP server
-    digest: e653b930e372f1a91a7ec19cea6522275d3a3557ea1af2e406cab31e135e160d
+    digest: 53036b10928ec87b78d6a34d98de31eb8391209f86d72feb4400cc446d15cbd4
     name: sftp-server
     urls:
     - charts/sftp-server-0.10.0.tgz
     version: 0.10.0
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2020-10-23T12:50:39.2346515+01:00"
+    created: "2020-10-23T12:56:04.3562806+01:00"
     description: A helm chart for a SFTP server
     digest: c0fcbe2c8d47d56a342d68e3f24d2e28139d3e2337699510ec87df18f0486bfc
     name: sftp-server
@@ -30,7 +21,7 @@ entries:
     version: 0.9.0
   - apiVersion: v1
     appVersion: 0.8.0
-    created: "2020-10-23T12:50:39.2336508+01:00"
+    created: "2020-10-23T12:56:04.3552464+01:00"
     description: A helm chart for a SFTP server
     digest: 97572695f4a9065aba08b789974f8961a15ecddbe705d4672628453e0cc70c9c
     name: sftp-server
@@ -39,7 +30,7 @@ entries:
     version: 0.8.0
   - apiVersion: v1
     appVersion: 0.8.0
-    created: "2020-10-23T12:50:39.2336508+01:00"
+    created: "2020-10-23T12:56:04.3552464+01:00"
     description: A helm chart for a SFTP server
     digest: cf8279c42f5008348d4c3d3b8aaae5a92d571b56f2a3aeb9a25e537f811614d2
     name: sftp-server
@@ -48,7 +39,7 @@ entries:
     version: 0.7.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-10-23T12:50:39.2326514+01:00"
+    created: "2020-10-23T12:56:04.3542459+01:00"
     description: A helm chart for a SFTP server
     digest: dab3bc54be43701f3ed9261635d16502df1c16f6b57c8c0f85e7a22aa8d1f9e6
     name: sftp-server
@@ -57,7 +48,7 @@ entries:
     version: 0.6.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-10-23T12:50:39.2316524+01:00"
+    created: "2020-10-23T12:56:04.3532799+01:00"
     description: A helm chart for a SFTP server
     digest: d3d5766f08ed65f27f254cdbd828d156c68280d2c44cd671b87ff39a2e1f1815
     name: sftp-server
@@ -66,7 +57,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-10-23T12:50:39.2316524+01:00"
+    created: "2020-10-23T12:56:04.3532799+01:00"
     description: A helm chart for a SFTP server
     digest: e5f271f87738e35d6e83300c2cb02ee1cea61faa462b80c73bdff1d4b5d9a16f
     name: sftp-server
@@ -75,11 +66,11 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-10-23T12:50:39.2306531+01:00"
+    created: "2020-10-23T12:56:04.3522816+01:00"
     description: A helm chart for a SFTP server
     digest: a9f9c0b4c494e2326420d4bf7f467da7380d29b124043097d54c8737f94ee090
     name: sftp-server
     urls:
     - charts/sftp-server-0.3.0.tgz
     version: 0.3.0
-generated: "2020-10-23T12:50:39.228651+01:00"
+generated: "2020-10-23T12:56:04.3512807+01:00"

@@ -16,6 +16,7 @@ service:
   enabled: true
   type: ClusterIP
   port: 22
+  nodePort: 3322
 
 sftpConfig:
   username: sftp
