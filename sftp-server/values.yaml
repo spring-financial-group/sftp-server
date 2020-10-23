@@ -20,6 +20,7 @@ service:
 sftpConfig:
   username: sftp
   password: ""
+  jailDir: "share"
   encrypted: false
   uid: ""
   gid: ""
