@@ -43,7 +43,7 @@ spec:
               mountPath: /etc/sftp/
             {{- if .Values.persistentVolume.enabled }}
             - name: data
-              mountPath: /home/ {{- .Values.sftpConfig.username -}} /
+              mountPath: /home/ {{- .Values.sftpConfig.username -}}/{{ .Values.sftpConfig.jailDir }}
               {{- if .Values.persistentVolume.subPath }}
               subPath: "{{ .Values.persistentVolume.subPath }}"
               {{- end }}
@@ -59,6 +59,7 @@ spec:
               subPath: {{ . }}
             {{- end }}
             {{- end }}
+          args: ["{{ .Values.sftpConfig.username }}::1001:100:{{ .Values.sftpConfig.jailDir }}"]
           livenessProbe:
             tcpSocket:
               port: 22

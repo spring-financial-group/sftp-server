@@ -15,11 +15,12 @@ fullnameOverride: ""
 service:
   enabled: true
   type: ClusterIP
-  port: 22
+  port: 3322
 
 sftpConfig:
   username: sftp
   password: ""
+  jailDir: "share"
   encrypted: false
   uid: ""
   gid: ""
