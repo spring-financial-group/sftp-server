@@ -51,17 +51,17 @@ persistentVolume:
 resources:
   sftp:
     limits:
-      cpu: 100m
+      cpu: 300m
       memory: 128Mi
     requests:
-      cpu: 100m
+      cpu: 300m
       memory: 128Mi
   debug:
     limits:
-      cpu: 100m
+      cpu: 300m
       memory: 64Mi
     requests:
-      cpu: 50m
+      cpu: 150m
       memory: 32Mi
 
 nodeSelector: {}
